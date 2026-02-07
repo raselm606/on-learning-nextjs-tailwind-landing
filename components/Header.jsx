@@ -4,6 +4,7 @@ import logo from "../public/images/logo.svg"
 const Header = () => {
 return (
     <>
+    
     <div className="  top-0  bg-[rgb(210,230,228,0.6)] z-10 mx-auto w-full fixed">
             <div className="  flex justify-between item-center px-4 py-5 max-w-7xl mx-auto">
                     <div> 

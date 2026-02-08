@@ -13,23 +13,30 @@ const HeroSection = () => {
     <>
         <div className="bg-[#D2E6E4] md:h-[850px]  h-[650px] max-w-full relative z-[1]"> 
             <Image className=" hidden md:block absolute  -z-[1] -translate-x-1/2 top-10 left-1/2 " src={top_line} alt="" />
+
             <div className=" mx-auto  max-w-7xl px-4 py-[100px] md:py-[200px] items-center grid grid-cols-12 gap-7.1">
                 <div className="md:col-span-7 col-span-12 ">
                     <p className="bg-[#ffffff] inline-block px-5 py-1 rounded-sm mb-4">Never stop learning</p>
                     <h1 className="text-[30px] mt-5 mb-7 md:text-[64px] md:leading-[70px] font-bold text-[#0B7077] leading-[40px]">Grow up your skills by online courses with Onlearning</h1>
-                    <div className="flex gap-3 items-center">
+
+                    <div className="flex md:flex-row flex-col  gap-3 md:items-center ">
+                        
                         <Link href="#"
-                        className="bg-[#FD661F] text-[#fff] uppercase py-3 px-5 rounded-lg">Explore Path</Link>
-                        <div className="flex -space-x-2 overflow-hidden">
+                        className="bg-[#FD661F] text-[#fff] w-[160px]  inline-block uppercase py-3 px-5 rounded-lg">Explore Path</Link>
+
+                        <div className="mt-5 md:mt-0 items-center flex -space-x-2 overflow-hidden">
                             <Image src={user1} alt="#" />
                             <Image src={user2} alt="#" />
                             <Image src={user3} alt="#" /> 
                         </div>
+
                         <div>
                             <p></p>
                             <p>(10k + Reviews)</p>
                         </div>
                     </div>
+
+
 
                 </div>
                 <div className="md:flex z-10 justify-center items-center px-3 py-3 bg-[rgb(255,255,255,.7)]  rounded-lg gap-8 hidden w-[300px] h-[100px]
@@ -40,7 +47,7 @@ const HeroSection = () => {
                         <p>Assisted Student</p>
                     </div>
                 </div>
-                <div className="absolute right-[10%] bottom-0">
+                <div className="absolute  right-6  md:right-[10%] bottom-0">
                     <Image src={hero_img} alt="heroimg" />
                 </div>
              

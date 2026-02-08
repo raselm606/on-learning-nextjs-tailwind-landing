@@ -3,6 +3,7 @@ import CourseCategory from "@/components/CourseCategory"
 import Header from "@/components/Header"
 import HeroSection from "@/components/HeroSection"
 import Training from "@/components/Training"
+import WhyYou from "@/components/WhyYou"
 const Landing = () => {
   return (
     <>
@@ -11,6 +12,7 @@ const Landing = () => {
     <CourseCategory />
     <Benefit />
     <Training />
+    <WhyYou />
 
     </>
   )

@@ -5,6 +5,9 @@ import explore from "../public/images/explore.svg"
 import hero_img from "../public/images/hero_img.png"
 import icon2 from "../public/images/icon2.png"
 import top_line from "../public/images/top_lines.png"
+import user1 from "../public/images/user1.png"
+import user2 from "../public/images/user2.png"
+import user3 from "../public/images/user3.png"
 const HeroSection = () => {
   return (
     <>
@@ -17,10 +20,10 @@ const HeroSection = () => {
                     <div className="flex gap-3 items-center">
                         <Link href="#"
                         className="bg-[#FD661F] text-[#fff] uppercase py-3 px-5 rounded-lg">Explore Path</Link>
-                        <div className="flex -gap-1">
-                            <p>1</p>
-                            <p>2</p>
-                            <p>3</p>
+                        <div className="flex -space-x-2 overflow-hidden">
+                            <Image src={user1} alt="#" />
+                            <Image src={user2} alt="#" />
+                            <Image src={user3} alt="#" /> 
                         </div>
                         <div>
                             <p></p>

@@ -11,8 +11,6 @@ const CardZen = () => {
         <div className="mx-auto  max-w-7xl">
             <div className="grid grid-cols-12">
                 <div className="col-span-4">
-
-                
          
         <div className=" border bg-white  dark:border-slate-700 border-[#e5eaf2] shadow-lg">
             <div className=" flex items-center justify-center flex-col p-6">

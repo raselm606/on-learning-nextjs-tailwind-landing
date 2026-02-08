@@ -7,7 +7,7 @@ import star from "../public/images/star.png"
 const WhyYou = () => {
   return (
     <>
-    <div className="max-w-7xl bg-[#DF1C25] mx-auto px-12 pt-15 relative rounded-2xl  pb-10 mb-20">
+    <div className="max-w-7xl bg-[#DF1C25] z-1 mx-auto px-12 pt-15 relative rounded-2xl  pb-10 mb-20">
         
         <Image className="
         md:absolute  
@@ -18,7 +18,11 @@ const WhyYou = () => {
         
         <Image className="
         md:absolute   
-        bottom-0 left-1/2 -translate-x-1/2 
+        bottom-0 
+        left-1/2
+        -translate-x-1/2
+         -z-1 
+          
         " src={lines} alt="#" />
         
         <Image className="

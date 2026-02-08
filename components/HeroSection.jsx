@@ -12,7 +12,7 @@ const HeroSection = () => {
   return (
     <>
         <div className="bg-[#D2E6E4] md:h-[850px]  h-[650px] max-w-full relative z-[1]"> 
-            <Image className=" hidden md:block absolute  -z-[1] -translate-x-1/2 top-10 left-1/2 " src={top_line} alt="" />
+            <Image className=" hidden md:block absolute  -z-[1] left-1/2 -translate-x-1/2 top-10  " src={top_line} alt="" />
 
             <div className=" mx-auto  max-w-7xl px-4 py-[100px] md:py-[200px] items-center grid grid-cols-12 gap-7.1">
                 <div className="md:col-span-7 col-span-12 ">

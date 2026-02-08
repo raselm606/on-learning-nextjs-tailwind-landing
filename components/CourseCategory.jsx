@@ -56,6 +56,10 @@ const CourseCategory = () => {
                     </div>
                 </div>
             </div>
+
+            <div className="text-center mt-12">
+                <Link href="#" className="py-3 hover:bg-[#0b7077] hover:text-[#fff] transition-all ease-in-out px-9 border-1 border-[#0B7077] rounded-[8px] ">View All</Link>
+            </div>
         </div>
         </div>
     </>

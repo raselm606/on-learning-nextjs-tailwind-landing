@@ -1,5 +1,6 @@
 import Benefit from "@/components/Benefit"
 import CourseCategory from "@/components/CourseCategory"
+import Footer from "@/components/Footer"
 import Header from "@/components/Header"
 import HeroSection from "@/components/HeroSection"
 import ProductSlider from "@/components/ProductSlider"
@@ -15,6 +16,7 @@ const Landing = () => {
     <Training />
     <WhyYou />
     <ProductSlider />
+    <Footer />
 
     </>
   )

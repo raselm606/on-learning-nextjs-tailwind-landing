@@ -1,3 +1,4 @@
+"use client"
 import Image from "next/image"
 import Link from "next/link"
 import calender from "../public/images/calender.png"
@@ -21,8 +22,7 @@ const HeroSection = () => {
 
                     <div className="flex md:flex-row flex-col  gap-3 md:items-center ">
                         
-                        <Link href="#"
-                        className="bg-[#FD661F] text-[#fff] w-[160px]  inline-block uppercase py-3 px-5 rounded-lg">Explore Path</Link>
+                        <Link href="#"  className="bg-[#FD661F] hover:bg-[#0b7077] text-[#fff] w-[160px]  inline-block uppercase py-3 px-5 rounded-lg">Explore Path</Link>
 
                         <div className="mt-5 md:mt-0 items-center flex -space-x-2 overflow-hidden">
                             <Image src={user1} alt="#" />
@@ -39,7 +39,7 @@ const HeroSection = () => {
 
 
                 </div>
-                <div className="md:flex z-10 justify-center items-center px-3 py-3 bg-[rgb(255,255,255,.7)]  rounded-lg gap-8 hidden w-[300px] h-[100px]
+                <div className="md:flex z-10 bounce3 justify-center items-center px-3 py-3 bg-[rgb(255,255,255,.7)]  rounded-lg gap-8 hidden w-[300px] h-[100px]
                 absolute bottom-[28%] right-[32%]">
                     <Image src={calender} alt=" claneder " />
                     <div className=" flex flex-col">
@@ -51,8 +51,9 @@ const HeroSection = () => {
                     <Image  src={hero_img} alt="heroimg" />
                 </div>
              
-                    <Image src={icon2} alt="icon2" className="absolute md:block hidden right-[15%] bottom-[40%]"/>
-                    <Image className="absolute  -bottom-[90px]  left-1/2 -translate-x-1/2 
+                    <Image src={icon2} alt="icon2" className="absolute md:block bounce6 hidden right-[15%] bottom-[40%]"/>
+
+                    <Image className="absolute rotate_shake  -bottom-[90px]  left-1/2 -translate-x-1/2 
                     bg-[white] p-4 rounded-full shadow-2xl" src={explore} alt="explore_area" />
            
                 <div></div>

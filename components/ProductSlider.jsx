@@ -17,12 +17,12 @@ import 'swiper/css/pagination'
 const ProductSlider = () => {
   return (
     <>
-    <div className="max-w-7xl mx-auto pt-15 pb-25">
+    <div className="max-w-7xl  px-4 mx-auto pt-15 pb-25">
         <div className="flex  justify-center">
             <Swiper
             modules={[Navigation, Pagination, Autoplay]} 
             slidesPerView={1}
-            navigation
+            
             autoplay
             loop={true}
             pagination={{ clickable: true }}

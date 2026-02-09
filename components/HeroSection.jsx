@@ -47,12 +47,12 @@ const HeroSection = () => {
                         <p>Assisted Student</p>
                     </div>
                 </div>
-                <div className="absolute  right-6  md:right-[10%] bottom-0">
-                    <Image src={hero_img} alt="heroimg" />
+                <div className="absolute  right-[1%] hidden md:block  md:right-[10%] bottom-0">
+                    <Image  src={hero_img} alt="heroimg" />
                 </div>
              
                     <Image src={icon2} alt="icon2" className="absolute md:block hidden right-[15%] bottom-[40%]"/>
-                    <Image className="absolute -bottom-[90px]  left-1/2 -translate-x-1/2 
+                    <Image className="absolute  -bottom-[90px]  left-1/2 -translate-x-1/2 
                     bg-[white] p-4 rounded-full shadow-2xl" src={explore} alt="explore_area" />
            
                 <div></div>

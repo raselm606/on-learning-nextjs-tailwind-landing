@@ -70,7 +70,7 @@ const Footer = () => {
 
 
             </div>
-             <p className="text-[#0B7077] md:w-[30%] mx-auto mt-2 text-[12px] font-semibold text-center pb-8">© 2026 Copyright  ( Figma Community template ) & <Link className="font-bold" href="https://raselm.com">Raselm.com</Link> converted into <strong>NextJS</strong> with <strong>Tailwinds</strong></p>
+             <p className="text-[#0B7077] md:w-[30%] px-4 mx-auto mt-2 text-[12px] font-semibold text-center pb-8">© 2026 Copyright  ( Figma Community template ) & <Link className="font-bold" href="https://raselm.com">Raselm.com</Link> converted into <strong>NextJS</strong> with <strong>Tailwinds</strong></p>
         </div>
 
     </>

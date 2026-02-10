@@ -39,8 +39,7 @@ const HeroSection = () => {
 
 
                 </div>
-                <div className="md:flex z-10 bounce3 justify-center items-center px-3 py-3 bg-[rgb(255,255,255,.7)]  rounded-lg gap-8 hidden w-[300px] h-[100px]
-                absolute bottom-[28%] right-[32%]">
+                <div className="md:flex z-10 bounce3 justify-center items-center px-3 py-3 bg-[rgb(255,255,255,.7)]  rounded-lg gap-8 hidden w-[300px] h-[100px]  absolute bottom-[28%]  right-[32%]">
                     <Image src={calender} alt=" claneder " />
                     <div className=" flex flex-col">
                         <span>250k</span>
@@ -53,8 +52,7 @@ const HeroSection = () => {
              
                     <Image src={icon2} alt="icon2" className="absolute md:block bounce6 hidden right-[15%] bottom-[40%]"/>
 
-                    <Image className="absolute rotate_shake  -bottom-[90px]  left-1/2 -translate-x-1/2 
-                    bg-[white] p-4 rounded-full shadow-2xl" src={explore} alt="explore_area" />
+                    <Image className="absolute rotate_shake  -bottom-[90px]  left-1/2 -translate-x-1/2   bg-[white]  p-4 rounded-full shadow-2xl" src={explore} alt="explore_area" />
            
                 <div></div>
 

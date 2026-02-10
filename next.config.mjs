@@ -2,8 +2,7 @@
 const nextConfig = {
   /* config options here */
   reactCompiler: true,
-  images: {
-    domains: ["img.freepik.com"],
+  images: { 
   },
 };
 
